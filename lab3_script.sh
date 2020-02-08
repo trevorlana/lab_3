@@ -25,4 +25,4 @@ egrep -o "^303-[0-9]{3}-[0-9]{4}" regex_practice.txt
 egrep -c ".+@.+\..{3}$" regex_practice.txt
 
 #any string followed by @geocities.com
-egrep ".+@geocities.com$" regex_practice.txt >> email_results.txt
+egrep ".+@geocities\.com$" regex_practice.txt >> email_results.txt
